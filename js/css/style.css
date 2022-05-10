@@ -1,0 +1,243 @@
+body {
+  /* background-color: rgb(236, 138, 154); */
+  background-image: url(https://www.nicepng.com/png/detail/770-7705642_blush-brushstroke-watercolor-paint.png);
+  background-size: 100%;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.square {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 958px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+.container:first-child {
+  text-align: center;
+}
+
+.coform {
+  display: flex;
+  max-width: 100%;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgb(243, 209, 214);
+  border-radius: 4px;
+  /* text-align: right; */
+  margin-left: 27px;
+}
+
+.field {
+  margin-bottom: 1rem;
+  display: block;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.field:last-child {
+  margin-bottom: 10px;
+}
+
+.field > input {
+  border: 0;
+  border-radius: 35px;
+  padding: 5px;
+  padding-right: 127px;
+}
+input.task-input {
+  width: 100px;
+  height: 25px;
+}
+
+.field:last-child > button {
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 0;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  /* display: flex; */
+  margin-left: 406px;
+  margin-top: 45px;
+  width: 200px;
+  /* text-align: center; */
+  font-size: medium;
+  letter-spacing: 7px;
+  font-family: "Cinzel", serif;
+}
+
+.field:last-child > button:hover {
+  background-color: pink;
+}
+
+.field:last-child {
+  text-align: center;
+}
+
+.main-modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(195, 126, 212, 0);
+  display: none;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(255, 210, 217);
+  margin: auto;
+  text-align: center;
+  border: 0;
+  border-radius: 15px;
+}
+
+.close {
+  text-align: end;
+}
+
+.form {
+  display: flex;
+  margin-left: 600px;
+  font-family: "Cinzel", serif;
+  letter-spacing: 10px;
+  color: rgb(216, 172, 180);
+}
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+table {
+  border: 1px solid #ccc;
+
+  border-collapse: collapse;
+
+  margin: 0;
+
+  padding: 0;
+
+  width: 100%;
+}
+
+table tr {
+  border: 1px solid #ddd;
+
+  padding: 5px;
+}
+
+table th,
+table td {
+  padding: 10px;
+
+  text-align: center;
+}
+
+table th {
+  font-size: 14px;
+
+  letter-spacing: 1px;
+
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  table {
+    border: 0;
+  }
+
+  table thead {
+    display: none;
+  }
+
+  table tr {
+    border-bottom: 2px solid #ddd;
+
+    display: block;
+
+    margin-bottom: 10px;
+  }
+
+  table td {
+    border-bottom: 1px dotted #ccc;
+
+    display: block;
+
+    font-size: 13px;
+
+    text-align: right;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
+
+  table td:before {
+    content: attr(data-label);
+
+    float: left;
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-right: 25px;
+}
+.cont {
+  display: flex;
+  margin-left: 110px;
+  color: rgb(178, 78, 94);
+}
+input.inp-edit {
+  display: flex;
+}
+.inner-modal {
+  height: 300px;
+  width: 300px;
+}
+input.inp-edit {
+  display: flex;
+  padding-left: 66px;
+  margin-bottom: 12px;
+  margin-left: 45px;
+}
+button {
+  color: black;
+  display: flex;
+  margin-right: 50px;
+}
+.item.image {
+  max-width: 100px;
+  max-height: 100px;
+}
